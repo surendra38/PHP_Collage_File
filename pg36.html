@@ -1,0 +1,27 @@
+<!-- 36- Create a web form which asks user to input the shade of RGB and display a web page with the selected RGB background -->
+<html>
+<head><title>pg36</title>
+<!-- <link rel="stylesheet" href="pg36.css"> -->
+<style>
+       form{
+           width: 300px;
+           margin:50px auto;
+        
+       }
+       h3{
+           text-align: center;
+       }
+</style>
+</head>
+<body style="background-color:bggcolor">
+    <div id="hello">
+        <h3 >enter the values of red, green and blue to change the background color</h3>
+        <form action="pg36.php" method="post" >
+         <div>enter red value<input type="text" name="r" size="3"></div>
+         <div>enter green value<input type="text" name="g" size="3"></div>
+         <div>enter blue value<input type="text" name="b" size="3"></div>
+         <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
